@@ -1,0 +1,37 @@
+{
+  "header": {
+    "nav_works": "Trabalhos",
+    "nav_meet_me": "Sobre mim",
+    "cta_contact": "Contato"
+  },
+  "hero": {
+    "subtitle": "Sou um UI&UX designer, que",
+    "title": "Converte ideias em <0/> experiências <1>intuitivas<1/>.",
+    "cta_view_work": "Ver trabalhos",
+    "cta_contact": "Entrar em contato"
+  },
+  "works": {
+    "section_title": "Trabalhos",
+    "section_subtitle": "Onde transformei conceitos em resultados",
+    "project_xyz": {
+      "title": "Site XYZ - Cliente",
+      "role_date": "Líder de UI | Projeto cliente | 2025",
+      "description": "Texto 1",
+      "cta_visit": "Visitar site"
+    }
+  },
+  "meet_me": {
+    "title": "Sobre mim",
+    "subtitle": "O designer por trás do trabalho",
+    "bio": "Como alguém apaixonado por tecnologia e design, criar experiências digitais que sejam significativas para as pessoas é uma parte importante da jornada. Através da minha graduação na Universidade Estadual da Paraíba, busco combinar isso com meu conhecimento prático como Desenvolvedor UI&UX na Knex Jr."
+  },
+  "contact": {
+    "title": "Fale comigo",
+    "subtitle": "Pronto para iniciar seu projeto? Vamos conversar.",
+    "cta_linkedin": "Linkedin",
+    "cta_email": "Email"
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 Todos os direitos reservados - Raimundo"
+  }
+}

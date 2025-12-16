@@ -1,0 +1,37 @@
+{
+  "header": {
+    "nav_works": "Works",
+    "nav_meet_me": "Meet me",
+    "cta_contact": "Contact me"
+  },
+  "hero": {
+    "subtitle": "I´m a UI&UX designer, who",
+    "title": "Converts ideas into <0/> intuitive <1>experiences<1/>.",
+    "cta_view_work": "View my work",
+    "cta_contact": "Contact me"
+  },
+  "works": {
+    "section_title": "Works",
+    "section_subtitle": "Where I transformed concepts into results",
+    "project_xyz": {
+      "title": "Site XYZ - Client",
+      "role_date": "UI Leader | Project client | 2025",
+      "description": "Text 1",
+      "cta_visit": "Visit website"
+    }
+  },
+  "meet_me": {
+    "title": "Meet me",
+    "subtitle": "The designer behind the work",
+    "bio": "As someone passionate about technology and design, Create digital experiences that are meaningful to the people is a significant part of the journey. Through my graduate studies in the state university of Paraiba I aim to combine them with my practical knowledge as a UI&UX Developer in Knex Jr."
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Ready to start your project? Let´s talk.",
+    "cta_linkedin": "Linkedin",
+    "cta_email": "Email"
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 All Rights Reserved - Raimundo"
+  }
+}
