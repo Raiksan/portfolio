@@ -12,14 +12,15 @@
   },
   "works": {
     "section_title": "Works",
-    "section_subtitle": "Where I transformed concepts into results",
-    "project_xyz": {
-      "title": "Site XYZ - Client",
-      "role_date": "UI Leader | Project client | 2025",
-      "description": "Text 1",
-      "cta_visit": "Visit website"
-    }
-  },
+    "section_subtitle": "Where i transformed concepts into <0>results<0/>",
+    "hyperlink_name":"Visit website",
+    "list": [ 
+      {
+        "title": "Site XYZ - Client",
+        "role_date": "UI Leader | 2025",
+        "description": "Text 1...",
+        "cta_link": "https://site1.com"
+      }]},
   "meet_me": {
     "title": "Meet me",
     "subtitle": "The designer behind the work",
