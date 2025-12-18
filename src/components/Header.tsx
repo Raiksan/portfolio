@@ -1,6 +1,7 @@
 import Anchor from "./Anchor"
 import Button from "./Button"
-import { MailIcon, LanguagesIcon } from "lucide-react"
+import { MailIcon } from "lucide-react"
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface HeaderProps{
   navWorks:string;
@@ -23,7 +24,8 @@ function Header({navWorks,navMeetMe,ctaContact}:HeaderProps) {
           </div>
           <div className="flex flex-row gap-6 items-center">
             <div className="w-0.5 h-8 bg-p1"></div>
-            <LanguagesIcon></LanguagesIcon>
+            <LanguageSwitcher></LanguageSwitcher>
+            
           </div>
         </div>
     </header>
