@@ -1,4 +1,5 @@
 import { Trans, useTranslation } from 'react-i18next';
+import { ExternalLinkIcon } from 'lucide-react';
 import Hyperlink from './Hyperlink';
 import placeholder from '/placeholder.webp' 
 
@@ -20,7 +21,7 @@ export default function WorkPost({title,role_date,description,cta_link}:postProp
             <h3 className='text-3xl font-mono font-semibold text-p2'><Trans i18nKey={title}/></h3>
             <h4 className='font-medium text-2xl text-p2'><Trans i18nKey={role_date}/></h4>
             <p><Trans i18nKey={description}/></p>
-            <Hyperlink style='bg-bl1 text-b1' href={cta_link} name={t(`works.hyperlink_name`)}></Hyperlink>
+            <Hyperlink icon={<ExternalLinkIcon className="size-6 text-b1 self-center"/>} style='bg-bl1 text-b1 flex-row-reverse flex-1' href={cta_link} name={t(`works.hyperlink_name`)}></Hyperlink>
         </div>
     </article>
   )
