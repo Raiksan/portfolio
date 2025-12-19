@@ -9,7 +9,7 @@ interface ModalProps{
     position: { top: number; left: number };
 }
 
-function LanguageSwitcher() {
+export default function LanguageSwitcher() {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [coords, setCoords] = useState({ top: 0, left: 0 });
@@ -36,8 +36,6 @@ function LanguageSwitcher() {
   )
 }
 
-export default LanguageSwitcher
-
 export function Modal({open,onClose,position}:ModalProps){
 
     const { i18n } = useTranslation();
@@ -54,7 +52,7 @@ export function Modal({open,onClose,position}:ModalProps){
     
     return createPortal(
         <>
-            <div className='fixed flex items-center justify-center backdrop-blur-md z-50 inset-0 animate-fade-in' onClick={onClose}></div>
+            <div className='fixed flex items-center justify-center z-50 inset-0 animate-fade-in' onClick={onClose}></div>
             <div className='fixed z-50 border-2 border-p1 px-4 py-2 bg-b2 animate-fade-in shadow-lg rounded-lg' 
             onClick={(e) => e.stopPropagation()}
             style={{ top: position.top,left: position.left }}>
@@ -63,7 +61,7 @@ export function Modal({open,onClose,position}:ModalProps){
                     <div className='h-4 w-0.5 bg-p2'></div>
                     <small className='font-bold text-[16px] text-p1' onClick={()=>i18n.changeLanguage('en')}>EN</small>
                 </div>
-                <div className='bg-bl2 w-4 h-0.5'></div>
+                <div className='bg-bl2 w-4 h-0.5'/>
             </div>
         </>,
         document.body
