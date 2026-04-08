@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @theme{
+  --default-font-sans-family:Roboto;
   --default-mono-font-family:Cascadia Mono;
-  --default-font-family:Roboto;
   --color-p1:#1D1E21;
   --color-p2:#0F0F11;
   --color-b1:#FEFDF6;
